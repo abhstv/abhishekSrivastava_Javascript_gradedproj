@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section>
+        
+            <div id="todoForm">
+                <div id="input">
+                    <h1>To-Do List App</h1>
+                    <input type="text" id="adding" placeholder="Add Todo" maxlength="200">
+                    <input type="hidden" id="saveIND" />
+                    <button id="add" onclick="add();">Add</button>
+                    <button id="save" onclick="save();">Save</button>
+                </div>
+                <div id="listShow"></div>
+            </div>
+        
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
